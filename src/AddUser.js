@@ -20,6 +20,7 @@ const AddUser = (props) => {
     if(+userAge<1){
       return;
     }
+    props.onAddUsers(username,userAge)//not understood
     setUsername("");
     setUserAge("");
   }
